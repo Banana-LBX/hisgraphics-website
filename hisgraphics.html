@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisgraphics</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Space+Grotesk:wght@400;700&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>HISGRAPHICS</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">游戏介绍</a></li>
+                    <li><a href="#gameplay">游戏机制</a></li>
+                    <li><a href="#cards">卡牌展示</a></li>
+                    <li><a href="#studio">工作室</a></li>
+                    <li><a href="#download">获取游戏</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>历史<span>对决</span></h2>
+            <p>在Hisgraphics中，历史成为你的武器，文明是你的战场。部署传奇人物，发动改变世界的事件，在历史的长河中展开终极对决。</p>
+            <a href="#download" class="btn">立即征战</a>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- 游戏介绍 -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>颠覆性历史TCG</h2>
+            </div>
+            <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                <p style="font-family: var(--font-subheading); font-size: 1.5rem; line-height: 1.8; margin-bottom: 40px;">
+                    Hisgraphics是一款革命性的集换式卡牌游戏，将人类历史的伟大篇章转化为激烈的战略对决。玩家通过部署历史人物、城市和文明事件，在分子与分母的资源博弈中争夺胜利。
+                </p>
+                <p style="font-family: var(--font-subheading); font-size: 1.5rem; line-height: 1.8;">
+                    游戏采用创新的三局制结构，每局包含五个回合。胜负不仅取决于力量，更在于智慧与策略的平衡。在Hisgraphics的世界里，历史由胜利者书写——你会成为那个改写历史的人吗？
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 游戏机制 -->
+    <section id="gameplay" class="section gameplay">
+        <div class="container">
+            <div class="section-title">
+                <h2>核心机制</h2>
+            </div>
+            <div class="gameplay-grid">
+                <div class="gameplay-card">
+                    <h3>胜利条件</h3>
+                    <p>游戏分为三局，每局五个回合。每局结束时，分子数量更多的玩家获胜该局。平局时，分母更多者获胜。</p>
+                    <p>率先赢得两局的玩家获得最终胜利。你的策略必须跨越多个历史时代，适应不断变化的战场。</p>
+                </div>
+                <div class="gameplay-card">
+                    <h3>卡牌类型</h3>
+                    <p><strong>技能卡：</strong>需要分母发动，产生分子资源。部署在C区和D区，是战场的主力。</p>
+                    <p><strong>城市卡：</strong>产生分母资源，部分拥有特殊能力。游戏开始前部署在A区和B区，是文明的基石。</p>
+                    <p><strong>附加卡：</strong>提供特殊增益，部署在E区。包括基础卡和角色卡，改变游戏规则的关键。</p>
+                </div>
+                <div class="gameplay-card">
+                    <h3>游戏流程</h3>
+                    <p>1. <strong>准备阶段：</strong>部署城市卡，建立文明基础</p>
+                    <p>2. <strong>回合开始：</strong>抽卡、获得资源，规划战略</p>
+                    <p>3. <strong>行动阶段：</strong>部署卡牌、发动能力，改变历史进程</p>
+                    <p>4. <strong>结算阶段：</strong>计算分子/分母，决定回合胜负</p>
+                    <p>5. <strong>回合结束：</strong>进入下一回合或结束游戏</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 卡牌展示 -->
+    <section id="cards" class="section cards-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>传奇卡牌</h2>
+            </div>
+            <div class="cards-container">
+                <!-- 卡牌1 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">哥伦布交换</div>
+                        <div class="card-type">技能卡</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-stats">
+                            <span>分子: 60</span>
+                            <span>分母: 4</span>
+                        </div>
+                        <div class="card-sample">
+                            <img class="card-image" src="./images/sc-86.jpg" alt="哥伦布交换">
+                        </div>
+                        <div class="card-effect">
+                            <p>当你打出此卡时，你B2区域的城市卡与对手A1区域的城市卡交换。新大陆的发现永远改变了两个世界。</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">SC-86</div>
+                </div>
+                
+                <!-- 卡牌2 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">商纣王帝辛</div>
+                        <div class="card-type">技能卡</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-stats">
+                            <span>分子: 60</span>
+                            <span>分母: 4</span>
+                        </div>
+                        <div class="card-sample">
+                            <img class="card-image" src="./images/sc-88.jpg" alt="哥伦布交换">
+                        </div>
+                        <div class="card-effect">
+                            <p>抽到此卡后，若将其保留至游戏结束，对手失去60点分子。暴君的终局往往是自我毁灭。</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">SC-88</div>
+                </div>
+                
+                <!-- 卡牌3 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">图坦卡蒙</div>
+                        <div class="card-type">技能卡</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-stats">
+                            <span>分子: 60</span>
+                            <span>分母: 3</span>
+                        </div>
+                        <div class="card-sample">
+                            <img class="card-image" src="./images/sc-96.jpg" alt="哥伦布交换">
+                        </div>
+                        <div class="card-effect">
+                            <p>抽到此卡后，所有部署在两个E区的卡牌将被收回至你的手牌。少年法老的诅咒依然强大。</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">SC-96</div>
+                </div>
+                
+                <!-- 卡牌4 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">匈奴</div>
+                        <div class="card-type">技能卡</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-stats">
+                            <span>分子: 40</span>
+                            <span>分母: 2</span>
+                        </div>
+                        <div class="card-sample">
+                            <img class="card-image" src="./images/sc-108.jpg" alt="哥伦布交换">
+                        </div>
+                        <div class="card-effect">
+                            <p>对手在本轮丢弃所有手牌。游牧民族的突袭总是出其不意。</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">SC-108</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工作室介绍 -->
+    <section id="studio" class="section studio">
+        <div class="container">
+            <div class="studio-content">
+                <div class="studio-text">
+                    <h2>GHNHD工作室</h2>
+                    <p>我们是一群叛逆的历史爱好者和游戏设计师，拒绝接受历史是枯燥的教科书内容。在GHNHD，我们相信历史是最伟大的故事，值得用最创新的方式讲述。</p>
+                    <p>Hisgraphics诞生于深夜的咖啡、堆满历史书籍的桌子和永无止境的"如果...会怎样"的讨论。我们的使命很简单：让历史变得危险而令人兴奋。</p>
+                    <p>我们不是教授，而是时空的扰乱者。我们不是保存历史，而是重新演绎它。</p>
+                </div>
+                <div class="studio-logo">
+                    <div class="ghnhd-logo">GHNHD<br>STUDIO</div>
+                    <div class="studio-tagline">重写历史 重塑未来</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 获取游戏 -->
+    <section id="download" class="section download-section">
+        <div class="container">
+            <div class="download-content">
+                <div class="section-title">
+                    <h2>加入历史革命</h2>
+                </div>
+                <p style="font-family: var(--font-subheading); font-size: 1.5rem; max-width: 700px; margin: 0 auto 50px;">
+                    Hisgraphics基础套装包含120张精心设计的历史卡牌，涵盖从古代文明到现代历史的转折点。限量版包含金属铸造的传奇人物卡牌。
+                </p>
+                <div class="download-buttons">
+                    <a href="#" class="download-btn">实体卡牌</a>
+                    <a href="#" class="download-btn">数字版</a>
+                    <a href="#" class="download-btn" style="background: var(--color-accent); color: var(--color-primary);">限量版</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hisgraphics</h3>
+                    <p>历史不是旁观者的游戏</p>
+                    <p>改变过去，定义未来</p>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <p>contact@ghnhd-studio.com</p>
+                    <p>+86 123 4567 8910</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">F</a>
+                        <a href="#" class="social-icon">T</a>
+                        <a href="#" class="social-icon">I</a>
+                        <a href="#" class="social-icon">D</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>加入革命</h3>
+                    <p>获取独家卡牌和游戏更新</p>
+                    <form style="margin-top: 20px; display: flex;">
+                        <input type="email" placeholder="你的邮箱" style="flex: 1; padding: 12px; border: 3px solid var(--color-bg); font-family: var(--font-body); background: var(--color-primary); color: var(--color-bg);">
+                        <button type="submit" style="background: var(--color-accent); color: var(--color-primary); border: 3px solid var(--color-bg); padding: 0 20px; font-family: var(--font-subheading); font-weight: 700; cursor: pointer;">订阅</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 GHNHD工作室. 保留所有权利. Hisgraphics是GHNHD工作室的商标. 历史属于那些敢于重写它的人.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
